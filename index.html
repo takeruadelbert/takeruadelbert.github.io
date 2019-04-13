@@ -7,6 +7,7 @@
 		<link rel="icon" href="images/icons/my-icon.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/contact-me.css "/>
+		<link rel="stylesheet" href="assets/css/jquery.growl.css"/>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>		
 		<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 		<script type="text/javascript">
@@ -14,17 +15,6 @@
 			   emailjs.init("user_UbvOT24c7GqZPQas7oQrk");
 			})();
 		</script>
-		<!--
-		<script type="text/javascript">
-			window.onload = function() {
-				document.getElementById('ContactMe').addEventListener('submit', function(event) {
-					event.preventDefault();
-					emailjs.sendForm('Yahoo', 'takeru', this);
-					alert("sukses");
-				});
-			}
-		</script>
-		-->
 	</head>
 	<body class="is-preload">
 
@@ -162,6 +152,7 @@ However, I was appointed as a project leader last year. Not to mention that I am
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 `	`		<script src="assets/js/jquery.validate.js"></script>
+			<script src="assets/js/jquery.growl.js"></script>
 			<script>				
 				$(document).ready(function() {
 					$("#ContactMe").validate({
@@ -208,13 +199,13 @@ However, I was appointed as a project leader last year. Not to mention that I am
 					};
 					emailjs.send('yahoo', 'template_KvkV9Fao', templateParams)
 							.then(function(response) {
-								alert("sukses");
+								display_success_message("Submitted Successfully.");
 								clear();
 								grecaptcha.reset();
 							   //console.log('SUCCESS!', response.status, response.text);
 							}, function(error) {
 							   //console.log('FAILED...', error);
-							   alert("failed");
+							   display_err_message("Error : " + error);
 							   grecaptcha.reset();
 							})
 				}
@@ -223,6 +214,14 @@ However, I was appointed as a project leader last year. Not to mention that I am
 					$("#name").val("");
 					$("#email").val("");
 					$("#message").val("");
+				}
+				
+				function display_success_message(text) {
+					$.growl.notice({ message: text });
+				}
+				
+				function display_err_message(text) {
+					$.growl.error({ message: text });
 				}
 			</script>
 	</body>
