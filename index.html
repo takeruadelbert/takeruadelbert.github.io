@@ -175,6 +175,16 @@ However, I was appointed as a project leader last year. Not to mention that I am
 `	`		<script src="assets/js/jquery.validate.js"></script>
 			<script src="assets/js/jquery.growl.js"></script>
 			<script>
+			document.onmousedown=disableclick;
+			status="Right Click Disabled";
+			function disableclick(event)
+			{
+			  if(event.button==2)
+			   {
+			     alert(status);
+			     return false;
+			   }
+			}
 				$(document).ready(function() {
 					$("#ContactMe").validate({
 						ignore: ".ignore",
