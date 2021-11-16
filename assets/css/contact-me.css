@@ -1,0 +1,3 @@
+#email-error, #name-error, #message-error, #hiddenRecaptcha-error, #subject-error {
+    color: red;
+}

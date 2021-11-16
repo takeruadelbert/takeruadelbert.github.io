@@ -888,6 +888,15 @@ section {
   }
 }
 
+.recaptcha-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.g-recaptcha {
+  display: inline-block;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
