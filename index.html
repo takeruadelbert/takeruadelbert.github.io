@@ -1,307 +1,583 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Lukas Fam Portfolio Website</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="icon" href="images/icons/my-icon.png">
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <link rel="stylesheet" href="assets/css/contact-me.css "/>
-    <link rel="stylesheet" href="assets/css/jquery.growl.css"/>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_UbvOT24c7GqZPQas7oQrk");
-        })();
-    </script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>iPortfolio Bootstrap Template - Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: iPortfolio - v3.6.0
+    * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
-<body class="is-preload">
 
-<!-- Header -->
+<body>
+
+<!-- ======= Mobile nav toggle button ======= -->
+<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+<!-- ======= Header ======= -->
 <header id="header">
-    <div class="inner">
-        <a href="#" class="image avatar"><img src="images/profile-picture.jpg" alt=""/></a>
-        <br>
-        <h1>Hi, I am <strong>Lukas Fam</strong>,<br/>
-            <strong>Senior Programmer</strong><br>strive to be a <strong>Software Engineer</strong>.<br/></h1>
-    </div>
-</header>
+    <div class="d-flex flex-column">
 
-<!-- Main -->
-<div id="main">
-
-    <!-- One -->
-    <section id="one">
-        <header class="major">
-            <h2>Welcome to my Website!</h2>
-        </header>
-        <p>
-            I am currently working as a programmer and software developer, and have been working for more than 4 years.
-
-            My work is about making and developing applications for clients, such as CMS (Content Management System)
-            using CakePHP Framework, Back-End APIs development using Java Spring Boot Framework, desktop application (C#
-            .NET Framework), mobile application (Android Java Native & React Native for both Android and iOS) and Python
-            script. You can see my project resume on my profile's Project List below.
-            <br>
-            Not to mention that I am eager and very interested to developing and researching about Virtual Reality and
-            Augmented Reality Technology.
-        </p>
-    </section>
-
-    <!-- Two -->
-    <section id="two">
-        <h2>Recent Work</h2>
-        <div class="row">
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/RegisterEmployeeFingerprint/scan-finger.png" class="image fit thumb"><img
-                        src="images/projects/highlight/RegisterEmployeeFingerprint/scan-finger.png" alt=""/></a>
-                <h3>Register Employee Finger</h3>
-                <p>Create and develop a desktop application using C# .NET Framework for registering employees using
-                    their fingerprint thus they can pass through swing barriers. However, this application is integrate
-                    to attendance machine as well. <br>P.S. Fingerprint device which I use, is ZKTeco SLK20R.</p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/Tapcash/cashier.png" class="image fit thumb"><img
-                        src="images/projects/highlight/Tapcash/cashier.png" alt=""/></a>
-                <h3>E-Payment</h3>
-                <p>
-                    This project is about developing a desktop application for cashier operator in parking. Generally,
-                    it's used by tapping tap-cash cards to open the parking gate (integrated with many local banks, such
-                    as BNI (Bank Negara Indonesia) and BCA (Bank Central Asia).
-                    <br>
-                    FYI, I use a contactless reader device (ACR123U) and some tap-cash cards, which mentioned above, and
-                    MIFARE Card as well.
-                    <br>
-                    However, I use C# .NET Framework for the UI Application (including some APIs to local server and
-                    bank server).
-                </p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/UHFWirelessRFID/main.png" class="image fit thumb"><img
-                        src="images/projects/highlight/UHFWirelessRFID/main.png" alt=""/></a>
-                <h3>UHF Wireless RFID</h3>
-                <p>
-                    Create and develop a console application (script) using C# .NET Framework for integration between
-                    Wireless RFID Reader Device (SYC8280B) and Barrier Gate.
-                    The program connect the device using TCP/IP, and it device can detect RFID card nearby within 6
-                    meter range.
-                </p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/AutoPasteUHFRFIDReader/main.png" class="image fit thumb"><img
-                        src="images/projects/highlight/AutoPasteUHFRFIDReader/main.png" alt=""/></a>
-                <h3>Auto Paste UHF RFID Writer-Reader Device</h3>
-                <p>
-                    Creating a C# Console .NET Framwork program to provide Copy-Paste Keyboard Automatically, as known
-                    as 'copy-to-clipboard' feature.
-                    When user tap card, program will paste card's UID automatically.
-                </p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/AnalyzeBarrierGate/analyze-result.png" class="image fit thumb"><img src="images/projects/highlight/AnalyzeBarrierGate/analyze-result.png" alt="" /></a>
-                <h3>Analyze Barrier Gate Log</h3>
-                <p>
-                    creating a program to analyze barrier gate log.<br> The program output provides : <br>
-                    - Longest (Max), shortest (Min), Mean (average) and Median time for the barrier gate from opening until closing. <br>
-                    - Longest (Max), shortest (Min), Mean (average) and Median time for sensor to detect vehicle. <br>
-
-                    P.S. I'm using Python Data Science for analysis.
-                </p>
-            </article>
-            <article class="col-6 col-12-xsmall work-item">
-                <a href="images/projects/highlight/Cikao/cikao.jpg" class="image fit thumb"><img
-                        src="images/projects/highlight/Cikao/cikao.jpg" alt="cikao mobile app"/></a>
-                <h3>Cikao Mobile App (Android & iOS)</h3>
-                <p>
-                    This project is about developing a mobile application (both Android and iOS) for Cikao Park operator to redeem client bonus items by scanning their ticket.
-
-                    I build this application using React Native.
-                </p>
-            </article>
+        <div class="profile">
+            <img src="assets/img/profile-img.jpg" alt="Lukas Fam" class="img-fluid rounded-circle">
+            <h1 class="text-light"><a href="index.html">Lukas Fam</a></h1>
+            <div class="social-links mt-3 text-center">
+                <a href="https://twitter.com/takeru_adelbert" class="twitter" target="_blank"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/takeruadelbert" class="facebook" target="_blank"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://github.com/takeruadelbert" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/lukas-fam-037645175/" class="linkedin" target="_blank"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
         </div>
-        <!-- <ul class="actions">
-            <li><a href="#" class="button">Full Portfolio</a></li>
-        </ul> -->
-    </section>
 
-    <!-- Three -->
-    <section id="three">
-        <h2>Get In Touch</h2>
-        <p>If you have any question about bussiness or job-recruitment or any other inquiry, don't hesitate to contact
-            me by filling this fields below.</p>
-        <div class="row">
-            <div class="col-8 col-12-small">
-                <form method="POST" action="#" id="ContactMe">
-                    <div class="row gtr-uniform gtr-50">
-                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name"
-                                                                required/></div>
-                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email"
-                                                                required/></div>
-                        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"
-                                                      required></textarea></div>
+        <nav id="navbar" class="nav-menu navbar">
+            <ul>
+                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+                </li>
+                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                </li>
+                <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+                    <span>Portfolio</span></a></li>
+                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                </li>
+            </ul>
+        </nav><!-- .nav-menu -->
+    </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+        <h1>Lukas Fam</h1>
+        <p>I'm <span class="typed" data-typed-items="Programmer, Developer, Engineer"></span></p>
+    </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>About</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Lukas Fam">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Programmer &amp; Software Developer</h3>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong>
+                                    <span>20 July 1993</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong>
+                                    <span>Indonesian</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                    <span>+62-878-981-77999</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong>
+                                    <span>Bandung, Indonesia</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>takeru_adelbert@hotmail.com</span>
+                                </li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Job Opportunity:</strong>
+                                    <span style="color: green; font-weight: bold;">Open</span></li>
+                            </ul>
+                        </div>
                     </div>
-                    <br>
-                    <ul class="actions">
-                        <li>
-                            <div class="g-recaptcha" data-sitekey="6LdqAJ4UAAAAAOq9NKpxlND0wmJojenKL41IBK3L"></div>
-                            <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha"
-                                   id="hiddenRecaptcha">
-                        </li>
-                        <li><input type="submit" value="Send Message" id="btnSubmit"/></li>
-                    </ul>
-                </form>
+                    <p class="description">I am currently working as a programmer and have been working for more than 5
+                        years.
+                        I am familiar with several programming languages such as PHP, Java, C#, Python, JavaScript
+                        (NodeJS,
+                        React Native, ReactJS, Express). However I am most confident with Java if I would say because I
+                        have
+                        been learning it since I was in undergraduate study. The reason why I learnt lots of programming
+                        languages is not because just for fun, but it is for knowing the liabilities for each
+                        programming
+                        languages thus I can decide which one is suitable for assigned project.
+                        You can see my project list below.
+                        Not to mention that I am eager and very interested to developing and researching about Virtual
+                        Reality and Augmented Reality Technology. I wish that I had a chance to learn these two
+                        fields.</p>
+                </div>
             </div>
-            <div class="col-4 col-12-small">
-                <ul class="labeled-icons">
-                    <li>
-                        <h3 class="icon fa-home"><span class="label">Address</span></h3>
-                        Jln Ciumbuleuit No 167 B<br/>
-                        Bandung, West Java 40142<br/>
-                        Indonesia
-                    </li>
-                    <li>
-                        <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-                        +62896-280-55233<br> +62878-981-77999
-                    </li>
-                    <li>
-                        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                        <a href="mailto:takeruadelbert@gmail.com">takeruadelbert@gmail.com</a>
-                    </li>
-                </ul>
+
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+        <div class="container">
+            <div class="section-title">
+                <h2>Facts</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                    <div class="count-box">
+                        <i class="bi bi-clock"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Years of Work <strong>Experience</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="bi bi-journal-check"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Total Completed <strong>Projects</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p>Total In-Progress <strong>Projects</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="bi bi-code-slash"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Programming Languages</strong> work experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <div class="row skills-content">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="progress">
+                        <span class="skill">HTML <i class="val">99%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">CSS <i class="val">70%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">JavaScript <i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="skill">C# <i class="val">70%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="progress">
+                        <span class="skill">PHP <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Java <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Python <i class="val">60%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <h2>Resume</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Summary</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Lukas Fam</h4>
+                        <p><em>Programmer with 5+ years of experience building, developing and maintaining
+                            application/software</em></p>
+                        <ul>
+                            <li>Bandung, West Java, Indonesia</li>
+                            <li>(+62) 878-981-77999</li>
+                            <li>takeru_adelbert@hotmail.com</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Bachelor's Degree in Informatics</h4>
+                        <h5>2011 - 2015</h5>
+                        <p><em>Parahyangan Catholic University, Bandung, Indonesia</em></p>
+                        <p>Research Topic : Modeling and Simulation Customer Queue in Supermarket.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>High School</h4>
+                        <h5>2008 - 2011</h5>
+                        <p><em>SMA Xaverius Lubuklinggau, Sumatera Selatan, Indonesia</em></p>
+                        <p>Major : Science</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Junior High School</h4>
+                        <h5>2005 - 2008</h5>
+                        <p><em>SMA Xaverius Lubuklinggau, Sumatera Selatan, Indonesia</em></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Elementary School</h4>
+                        <h5>1999 - 2005</h5>
+                        <p><em>SMA Xaverius Lubuklinggau, Sumatera Selatan, Indonesia</em></p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>Programmer</h4>
+                        <h5>2019 - Present</h5>
+                        <p><em><strong>PT. Surya Teknologi Nasional</strong><br>Bandung, West Java, Indonesia</em></p>
+                        <ul>
+                            <li>Building and developing web based applications using ReactJS (Front-End development) and
+                                Java Spring Boot Framework (Back-End development)
+                            </li>
+                            <li>Developing mobile applications using React Native for both Android and iOS.</li>
+                            <li>Developing desktop applications using Electron (NodeJS + ExpressJS).</li>
+                            <li>Scripting using Python/NodeJS (IoT).</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Full Stack Developer</h4>
+                        <h5>2016 - 2018</h5>
+                        <p><em><strong>PT. Surya Teknologi Nasional</strong><br>Bandung, West Java, Indonesia</em></p>
+                        <ul>
+                            <li>Building and developing web applications using CakePHP Framework.</li>
+                            <li>Developing android applications using Java.</li>
+                            <li>Developing desktop applications using Java and C#.</li>
+                            <li>Scripting using Python (IoT).</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Assistant Lecturer</h4>
+                        <h5>2015 - 2016</h5>
+                        <p><em><strong>Parahyangan Catholic University</strong><br>Bandung, West Java, Indonesia</em>
+                        </p>
+                        <p>Assisting students to learn concepts and basic of :</p>
+                        <ul>
+                            <li>Java Programming Language</li>
+                            <li>Haskell Programming</li>
+                            <li>Web Programming (HTML, CSS, JavaScript, JQuery and PHP)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>List of all projects I have been working : web, desktop, mobile application and IoT (Internet of Things).</p>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">App</li>
+                        <li data-filter=".filter-card">Card</li>
+                        <li data-filter=".filter-web">Web</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                               class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-</div>
+    <!-- End Portfolio Section -->
 
-<!-- Footer -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div class="row" data-aos="fade-in">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="inner">
-        <ul class="icons">
-            <li><a href="https://www.facebook.com/takeruadelbert" class="icon fa-facebook" target="_blank"><span
-                    class="label">Facebook</span></a></li>
-            <li><a href="https://twitter.com/takeru_adelbert" class="icon fa-twitter" target="_blank"><span
-                    class="label">Twitter</span></a></li>
-            <li><a href="https://github.com/takeruadelbert" class="icon fa-github" target="_blank"><span class="label">Github</span></a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/lukas-fam-037645175/" class="icon fa-linkedin"
-                   target="_blank"><span class="label">Linked In</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>&copy; 2020</li>
-            <li>Takeru T.K.</li>
-            <li>All Rights Reserved.</li>
-        </ul>
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>iPortfolio</span></strong>
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
     </div>
-</footer>
+</footer><!-- End  Footer -->
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.poptrox.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-` `
-<script src="assets/js/jquery.validate.js"></script>
-<script src="assets/js/jquery.growl.js"></script>
-<script>
-    // Disable Inspect Element
-    document.onkeydown = function (e) {
-        if (event.keyCode == 123) {
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-            return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-            return false;
-        }
-    }
 
-    // Disable Right-Click Mouse
-    document.onmousedown = disableclick;
-    status = "Right Click Disabled";
-
-    function disableclick(event) {
-        if (event.button == 2) {
-            alert(status);
-            return false;
-        }
-    }
-
-    $(document).ready(function () {
-        $("#ContactMe").validate({
-            ignore: ".ignore",
-            rules: {
-                "name": {
-                    required: true
-                },
-                "email": {
-                    required: true,
-                    email: true
-                },
-                "message": {
-                    required: true
-                },
-                hiddenRecaptcha: {
-                    required: function () {
-                        if (grecaptcha.getResponse() === '') {
-                            return true;
-                        } else {
-                            return false;
-                        }
-                    }
-                }
-            },
-            messages: {
-                hiddenRecaptcha: "recaptcha is required!"
-            },
-            submitHandler: function (form) {
-                var name = $("#name").val();
-                var email = $("#email").val();
-                var message = $("#message").val();
-                send_email(name, email, message);
-            }
-        });
-    });
-
-    function send_email(name, email, message) {
-        var templateParams = {
-            from_name: name,
-            to_name: "Lukas Fam",
-            from_email: email,
-            message_html: message
-        };
-        emailjs.send('yahoo', 'template_KvkV9Fao', templateParams)
-            .then(function (response) {
-                display_success_message("Submitted Successfully.");
-                clear();
-                grecaptcha.reset();
-                //console.log('SUCCESS!', response.status, response.text);
-            }, function (error) {
-                //console.log('FAILED...', error);
-                display_err_message("Error : " + error);
-                grecaptcha.reset();
-            })
-    }
-
-    function clear() {
-        $("#name").val("");
-        $("#email").val("");
-        $("#message").val("");
-    }
-
-    function display_success_message(text) {
-        $.growl.notice({message: text});
-    }
-
-    function display_err_message(text) {
-        $.growl.error({message: text});
-    }
-</script>
 </body>
+
 </html>
