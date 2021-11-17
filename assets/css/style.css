@@ -545,6 +545,10 @@ section {
   bottom: 0;
 }
 
+.gslide-title {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -966,4 +970,9 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.summary {
+  text-align: justify;
+  text-justify: inter-word;
 }
