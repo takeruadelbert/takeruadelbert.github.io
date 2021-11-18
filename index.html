@@ -575,7 +575,7 @@
 <footer id="footer">
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>2021</span></strong>
+            &copy; Copyright <span id="year"></span>
         </div>
         <div class="credits">
             Maintained by <a href="https://www.linkedin.com/in/lukas-fam-037645175/" target="_blank">Lukas Fam</a>
@@ -607,6 +607,8 @@
 <script src="assets/js/strict.js"></script>
 <script>
     $(document).ready(function () {
+        const currentYear = new Date().getFullYear();
+        $("span#year").text(currentYear);
         $("#contactMe").validate({
             ignore: ".ignore",
             rules: {
